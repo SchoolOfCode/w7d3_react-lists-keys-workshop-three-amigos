@@ -11,7 +11,7 @@ function Main() {
 
   return (
     <main id="main">
-      {samplePosts.map(function (post) {
+      {posts.map(function (post) {
         return (
           <Post
             key={post.postId}

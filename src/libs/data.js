@@ -76,7 +76,7 @@ const samplePosts = [
   },
   {
     postId: 4,
-    title: "A hateful pigeon",
+    title: "A terrible pigeon",
     date: "06/01/22",
     author: "Valerio and Austyn",
     text: lorem.generateParagraphs(7),
