@@ -2,9 +2,9 @@ import React from "react";
 
 import "./index.css";
 
-function Post({ key, title, date, author, text, highlights, image }) {
+function Post({ title, date, author, text, highlights, image }) {
   return (
-    <article key={key}>
+    <article>
       <header>{title} </header>
       <h1> {author} </h1>
       <p>{date}</p>
